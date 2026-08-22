@@ -3,7 +3,7 @@
 
 SpendDNA is a Python-based transaction analytics tool engineered to replicate the financial data pipelines used by top Indian fintech companies (like Cred, Slice, and Jupiter). The system parses raw, messy multi-format bank/UPI statements, normalizes vendor text, categorizes spending, handles anomaly detection, and generates a formatted, console-printed analytics report—reminiscent of a "Spotify Wrapped" for money.
 
-## 🎯 Project Overview & Features
+##  Project Overview & Features
 
 The system processes 6 months of synthetic financial data (1,328 transaction rows) for a Bengaluru-based software engineer, executing 8 core analytical features:
 
@@ -18,7 +18,7 @@ The system processes 6 months of synthetic financial data (1,328 transaction row
 
 ---
 
-## 🛠️ Tech Stack & Constraints
+##  Tech Stack & Constraints
 
 This project enforces strict architecture constraints to showcase pure problem-solving and algorithmic logic to recruiters. **No external automation tools or heavy ML libraries were used.**
 
@@ -28,14 +28,14 @@ This project enforces strict architecture constraints to showcase pure problem-s
 * **NumPy:** Vectorized arrays, mathematical aggregates (`mean`, `std`), and rolling matrix math.
 
 ### Forbidden (Strictly Excluded):
-* ❌ **No Data Profiling Libraries** (`pandas-profiling`, `sweetviz`) — all metrics are coded manually.
-* ❌ **No Visualization Libraries** (`matplotlib`, `seaborn`) — all reports and data bars are purely text/ASCII-based.
-* ❌ **No Advanced ML/Stats Libraries** (`scikit-learn`, `scipy`) — Z-score algorithms are calculated by hand.
-* ❌ **No Regular Expressions** (`re` module) — pattern matching is handled via native string manipulation methods.
+*  **No Data Profiling Libraries** (`pandas-profiling`, `sweetviz`) — all metrics are coded manually.
+*  **No Visualization Libraries** (`matplotlib`, `seaborn`) — all reports and data bars are purely text/ASCII-based.
+*  **No Advanced ML/Stats Libraries** (`scikit-learn`, `scipy`) — Z-score algorithms are calculated by hand.
+*  **No Regular Expressions** (`re` module) — pattern matching is handled via native string manipulation methods.
 
 ---
 
-## 📊 Target Report Architecture
+##  Target Report Architecture
 
 The engine generates a clean, screenshot-ready terminal report with the following structural layout:
 
